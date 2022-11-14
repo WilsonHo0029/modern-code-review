@@ -33,7 +33,7 @@ int main() {
     if (turn == false)
       game[i][j] = 'X';
     else
-      game[i][j] = 'O';
+      game[i][j] = 'O';//XX
     if (isWin(game)) {
       cout << "Win!" << endl;
       break; // need to terminate the problem
